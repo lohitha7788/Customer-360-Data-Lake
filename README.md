@@ -51,7 +51,7 @@ Build a production style customer data lake leveraging AWS services to:
 - README with setup instructions
 
 ## System Architecture
-
+Customer 360 Data Lake Architecture Diagram .drawio.png
 
 ## Prerequisites
 
@@ -211,7 +211,8 @@ python salesforce_csv_generator.py
 | Redshift Serverless (8 base RPUs) | ~$0.36/RPU-hr while active |
 | Amazon S3 | ~$0.023/GB (Standard) |
 | Amazon Athena | ~$5.00/TB scanned |
-##Next Steps
+
+## Next Steps
 	-	QuickSight Dashboard  build a Customer 360 dashboard on top of the Redshift customer_360 table, covering an RFM segment breakdown (pie chart), a recency vs monetary scatter plot colored by churn ris, and a churn risk cohort summary table. Deferred for now in favor of validating the pipeline end to end via Redshift/Athena SQL first.
 ## Lessons Learned
 
