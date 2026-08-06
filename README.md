@@ -213,7 +213,7 @@ python salesforce_csv_generator.py
 | Amazon Athena | ~$5.00/TB scanned |
 
 ## Next Steps
-	-	QuickSight Dashboard  build a Customer 360 dashboard on top of the Redshift customer_360 table, covering an RFM segment breakdown (pie chart), a recency vs monetary scatter plot colored by churn ris, and a churn risk cohort summary table. Deferred for now in favor of validating the pipeline end to end via Redshift/Athena SQL first.
+	- QuickSight Dashboard  build a Customer 360 dashboard on top of the Redshift customer_360 table, covering an RFM segment breakdown (pie chart), a recency vs monetary scatter plot colored by churn ris, and a churn risk cohort summary table. Deferred for now in favor of validating the pipeline end to end via Redshift/Athena SQL first.
 ## Lessons Learned
 
 - DMS's "Schema" selection rule must match the actual PostgreSQL schema (typically `public`), not the database name  a subtle but easy mistake since both often share a similar looking value
